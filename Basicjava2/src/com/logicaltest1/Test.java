@@ -1,14 +1,32 @@
 package com.logicaltest1;
 
-public class Test {
-		public static void main(String[] args) { 
-	       short s1 = 2000;
-	       short s2 = 320;
-	       System.out.println(s1 + s2);
-	       char c1 = 'd';
-	       char c2 = 'e';
-	       char c3 =c1 + c2;
-	       System.out.println(c3);  
-		 }
+public class Test
+{
+	int a = 20;
+	String str = "java";
 
+	Test()
+	{
+		System.out.println("in default constructor");
+	}
+
+	Test(int i, String s)
+	{
+		this();
+		a = i;
+		str = s;
+	}
+
+	public void static foo()
+		{
+		this.i=10;
+		this.str="Angular";
+		}
+
+	public static void main(String[] args)
+	{
+		Test t1 = new Test(2, "spring");
+		t1.foo();
+		System.out.println(t1.a + " " + t1.str);
+	}
 }

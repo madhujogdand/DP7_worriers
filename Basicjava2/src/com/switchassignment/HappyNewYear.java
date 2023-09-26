@@ -5,7 +5,7 @@ public class HappyNewYear {
 	
 	    public static void main(String s[])
 	    {
-	        int code = 3;
+	        int code = 1;
 	        
 	        switch(code)
 	        {

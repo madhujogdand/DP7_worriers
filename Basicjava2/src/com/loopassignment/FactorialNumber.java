@@ -8,15 +8,15 @@ public class FactorialNumber {
 	  System.out.println("Enter any number:");
 	  int num=sc.nextInt();
 	  
-	 // for(int i=1;i<=num;i++)
-	  //{
-		//  fact*=i;
-	  //}
-	  
-	  for(int i=num;i>0;i--)
+	  for(int i=1;i<=num;i++)
 	  {
 		  fact*=i;
 	  }
+	  
+//	  for(int i=num;i>0;i--)
+//	  {
+//		  fact*=i;
+//	  }
 	  System.out.println("Factorial of "+num+"is: "+fact);
   sc.close();
   }

@@ -8,7 +8,7 @@ public class EvenOdd {
 		 Scanner sc=new Scanner(System.in);
 		 
 		 System.out.println("Enter number:");
-		int num=sc.nextInt();
+		 int num=sc.nextInt();
 		
 		 switch(num%2)
 		 {
