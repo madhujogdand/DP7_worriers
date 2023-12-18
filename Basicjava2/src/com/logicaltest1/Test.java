@@ -17,16 +17,16 @@ public class Test
 		str = s;
 	}
 
-	public void static foo()
-		{
-		this.i=10;
-		this.str="Angular";
-		}
+//	public void static foo()
+//		{
+//		this.i=10;
+//		this.str="Angular";
+//		}
 
 	public static void main(String[] args)
 	{
 		Test t1 = new Test(2, "spring");
-		t1.foo();
+//		t1.foo();
 		System.out.println(t1.a + " " + t1.str);
 	}
 }

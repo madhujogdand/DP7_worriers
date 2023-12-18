@@ -24,7 +24,7 @@ public class ReverseSum {
 		}
 		//sum of first 3 digit
 		for (int i = 0; i < 3; i++) {
-			int rem = num % 10;
+			int rem = revNum % 10;
 			first3Sum += rem;
 			revNum /= 10;
 		}

@@ -14,7 +14,7 @@ public class MethodOver {
 
 	public static void main(String[] args) {
 		 MethodOver m=new  MethodOver();
-		m.printParam(10,20);
+	//	m.printParam(10,20);
 
 	}
 

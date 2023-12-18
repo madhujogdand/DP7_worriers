@@ -19,6 +19,7 @@ public class TechNumber {
 		for(int i=1;i<=count/2;i++)
 		{
 			pow=pow*10;
+			
 		}
         if(count%2==0)
         {
@@ -53,5 +54,4 @@ public class TechNumber {
 		checkTechNo(num);
 
 	}
-
 }

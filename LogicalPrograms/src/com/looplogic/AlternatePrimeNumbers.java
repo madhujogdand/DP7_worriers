@@ -1,39 +1,39 @@
 package com.looplogic;
 
 public class AlternatePrimeNumbers {
-   static boolean checkPrime(int num)
-   {  
-	  boolean status=true;
-	   if(num==0||num==1)
-	   {
-		   status=false;
-	   }
-	   else
-	   {   
-	     for(int i=2;i<num;i++)
-	     {
-		   if(num%i==0)
-		   {
-			   status=false;
-			   break;
-		   }
-		 }
-	   } 
-	  return status;
-	
-   }
-	
-   public static void main(String[] args) {
-		System.out.println("print alternate prime numbers from 1-50: ");
-		for(int i=1;i<=50;i++)
+	static void checkPrime(int n)
+	{
+		int count;
+		int result = 1;
+
+		for (int i = 2; i <= n; i++)
 		{
-          if(checkPrime(i))
-          {
-        	  System.out.print(i+" ");
-          }
+			count = 0;
+			for (int j = 1; j <= i; j++)
+			{
+				if (i % j == 0)
+				{
+					count++;
+				}
+			}
+
+			if (count == 2)
+			{
+				result++;
+				if (result % 2 == 0)
+				{
+					System.out.println(i + " ");
+				}
+			}
 
 		}
-          
+	}
+
+	public static void main(String[] args) {
+		System.out.println("print alternate prime numbers from 1-50: ");
+		checkPrime(50);
+		
+
 	}
 
 }

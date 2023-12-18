@@ -10,7 +10,7 @@ public class KrishnamurthyNumber {
 		{
 			int rem=num%10;
 			int fact=1;
-			for(int i=1; i<=num;i++)
+			for(int i=1; i<=rem;i++)
 			{
 			
 				fact*=i;
@@ -33,7 +33,7 @@ public class KrishnamurthyNumber {
 	
 	
     public static void main(String args[]) {
-	 int num=153;
+	 int num=145;
 	 
 	 checkNumber(num);
 	 

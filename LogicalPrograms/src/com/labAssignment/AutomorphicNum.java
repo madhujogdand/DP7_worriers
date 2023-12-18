@@ -10,7 +10,7 @@ public class AutomorphicNum {
 		  int square=num*num;
 	      while(num!=0)
 		  {
-			  int rem=num%10;
+			 // int rem=num%10;
 			  count++;
 			  num/=10;
 		  }

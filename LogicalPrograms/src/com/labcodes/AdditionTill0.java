@@ -2,9 +2,7 @@ package com.labcodes;
 import java.util.Scanner;
 public class AdditionTill0 {
 	static void addition(int num) {
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter number: ");
-    	num=sc.nextInt();
+		
 		int sum=0;
 		while(num!=0)
 		{
@@ -16,7 +14,10 @@ public class AdditionTill0 {
 		System.out.println("Addition is: "+sum);
 	}
 	public static void main(String args[]) {
-			addition(2);
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter number: ");
+    	 int num=sc.nextInt();
+			addition(num);
 		
 	}
 	

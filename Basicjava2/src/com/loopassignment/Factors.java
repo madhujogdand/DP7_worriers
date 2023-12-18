@@ -13,6 +13,8 @@ public class Factors {
 		  {
 			if(num%i==0)
 				System.out.println(i+" is factor of "+num);
+				//System.out.println(i);
+
 		  }
 		  sc.close();
 }

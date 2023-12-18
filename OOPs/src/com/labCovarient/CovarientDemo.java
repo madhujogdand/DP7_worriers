@@ -1,4 +1,6 @@
-package com.labOverriding;
+package com.labCovarient;
+
+
 
 class Covarient
 {
@@ -22,6 +24,20 @@ class SubCovarient1 extends Covarient
 		return "MNOP";
 	}
 }
+class SubCovarient2 extends Covarient
+{
+	Float show()
+	{
+		return 8.5f;
+	}
+}
+class SubCovarient3 extends Covarient
+{
+	Character show()
+	{
+		return 'M';
+	}
+}
 public class CovarientDemo {
 
 	public static void main(String[] args) {
@@ -32,8 +48,19 @@ public class CovarientDemo {
 		c1=new SubCovarient1();
 		System.out.println(c1.show());
 		
-		Covarient c2=new Covarient();
-		Integer a=(Integer) c2.show();
-		System.out.println(a);
+		c1=new SubCovarient2();
+		System.out.println(c1.show());
+		
+		c1=new SubCovarient3();
+		System.out.println(c1.show());
+		
+//		Integer i=(Integer) c1.show();
+//		System.out.println(i);
+//		
+//		char ch='a';
+//		int x=ch;
+//		
+//		
+		
 	}
 }

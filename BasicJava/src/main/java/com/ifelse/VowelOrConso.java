@@ -10,13 +10,11 @@ public class VowelOrConso {
 		
 		if(alphabet=='a' || alphabet=='e' || alphabet=='i' || alphabet=='o' || alphabet=='u')
 		{
-			System.out.println(alphabet+" is a Vowel.");
-			
+			System.out.println(alphabet+" is a Vowel.");			
 		}
 		else
 		{
-			System.out.println(alphabet+" is a Consonant.");
-			
+			System.out.println(alphabet+" is a Consonant.");			
 		}
 		
 		sc.close();

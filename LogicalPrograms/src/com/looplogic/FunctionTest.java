@@ -33,8 +33,8 @@ public class FunctionTest {
 		
 		int revN= reverseNum(n);
 		
-		//System.out.println(num);
-		//System.out.println(revN);
+		System.out.println(n);
+		System.out.println(revN);
 		
 		int diff= n-revN;
 		

@@ -30,7 +30,7 @@ public class TwinPrimeNumber {
 	         Scanner sc=new Scanner(System.in);
 				System.out.println("Enter number 1:");
 				int num1=sc.nextInt();
-				System.out.println("Enter number 1:");
+				System.out.println("Enter number 2:");
 				int num2=sc.nextInt();
 				
                  boolean status =false;
@@ -48,11 +48,11 @@ public class TwinPrimeNumber {
 		          
 		         if(status)
 		         {
-		        	 System.out.println("Numbers are twin prime");
+		        	 System.out.println("Numbers are twin prime");//(3,5)
 		         }
 		         else
 		         {
-		        	 System.out.println("Numbers are not twin prime");
+		        	 System.out.println("Numbers are not twin prime");//(3,7)
 		         }
 		          
 			}

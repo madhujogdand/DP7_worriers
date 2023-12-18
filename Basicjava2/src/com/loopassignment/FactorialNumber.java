@@ -14,10 +14,10 @@ public class FactorialNumber {
 	  }
 	  
 //	  for(int i=num;i>0;i--)
-//	  {
-//		  fact*=i;
-//	  }
-	  System.out.println("Factorial of "+num+"is: "+fact);
+	//  {
+		//  fact*=i;
+	  //}
+	  System.out.println("Factorial of "+num+" is: "+fact);
   sc.close();
   }
   
